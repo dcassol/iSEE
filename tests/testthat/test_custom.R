@@ -1,3 +1,5 @@
+context("custom")
+
 # This script tests the code related to the creation of custom panels.
 # library(iSEE); library(testthat); source("setup_sce.R"); source("test_custom.R")
 
