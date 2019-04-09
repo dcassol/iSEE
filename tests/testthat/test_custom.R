@@ -14,7 +14,7 @@ CUSTOM_DATA <- function(se, rows, columns, colour_by=NULL, scale_columns=TRUE) {
     }
 
     scale_columns <- as.logical(scale_columns)
-    kept <- runPCA(kept, feature_set=rows, scale_columns=scale_columns)
+    kept <- runPCA(kept, feature_set=rows, scale_features=scale_columns)
 	plotPCA(kept, colour_by=colour_by)
 }
 
