@@ -1,6 +1,12 @@
 \name{NEWS}
 \title{News for Package 'iSEE'}
 
+\section{iSEE VERSION 1.2.4}{
+\itemize{
+    \item Update unit test.
+}
+}
+
 \section{iSEE VERSION 1.2.3}{
 \itemize{
     \item Fix release date.
