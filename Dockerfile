@@ -13,8 +13,8 @@ ADD . /app
 # Install iSEE and dependencies
 RUN Rscript -e "BiocManager::install('iSEE', version = 'devel')"
 
-# Add additional dependencies for the GitHub version
-RUN Rscript -e "BiocManager::install(c('shinyWidgets', 'ComplexHeatmap', 'circlize'), version = 'devel')"
+# Install any additional dependencies for the GitHub version
+# RUN Rscript -e "BiocManager::install(c('shinyWidgets', 'ComplexHeatmap', 'circlize'), version = 'devel')"
 
 # Reinstall the latest iSEE from GitHub branch master.
 WORKDIR /isee
