@@ -1,3 +1,26 @@
+# iSEE 2.1.8
+
+* Fixed control of legend point size for continuous covariates.
+* Extended control of legend point size for violin plots and Hinton plots.
+
+# iSEE 2.1.7
+
+* Added control of legend point size under the "Text" category of teh "Visual parameters" box.
+
+# iSEE 2.1.6
+
+* Fixed bug for `sizeBy` observers.
+
+# iSEE 2.1.5
+
+* Fixed initialization of panel size to current value when the "Organize panels" window is closed and re-opened.
+* Fixed removal of last panel from the interface.
+
+# iSEE 2.1.4
+
+* Add progress bar when exporting panel outputs. 
+* Fix missing section in `createLandingPage()` man page.
+
 # iSEE 2.1.3
 
 * Fixed handling of logical > 1 when processing the `CustomRowsText` slot in the `ComplexHeatmapPlot` constructor.
